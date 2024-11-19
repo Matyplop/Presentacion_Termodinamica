@@ -1,0 +1,68 @@
+---
+title: "CICLO DE POTENCIA DE VAPOR Y COMBINADOS"
+subtitle: "CICLO RANKINE"
+author: "Matías Ceballos-Miguel Cortés-Sebastián Marchant-Eduardo Silva"
+format: revealjs
+theme: white
+
+transition: convex
+header-includes:
+  - |
+    <style>
+    .center {
+      text-align: center;
+    }
+    ul {
+      font-family: Arial, sans-serif;
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 30px;
+      color: #1a73e8; /* Puedes personalizar el color */
+    }
+    li {
+      margin: 5px 0;
+    }
+    h2 {
+      color: #87CEEB; /* Azul cielo para los títulos h2 */
+      text-align: center;
+    }
+    
+    
+
+    
+
+  
+
+    </style>
+---
+
+
+<div>
+  <h2>Objetivos</h2>
+</div>
+
+<div>
+  <h3>General</h3>
+  <ul>
+    <li>Analizar y explicar el ciclo de Rankine, además de estudiar sus aplicaciones reales en contexto de ingeniería.</li>
+  </ul>
+
+  <h3>Específicos</h3>
+  <ul>
+    <li>Verificar el cumplimiento de la primera y segunda ley de la termodinámica.</li>
+    <li>Realizar balances de masa y energía para obtener datos relevantes.</li>
+    <li>Comparar un ciclo real vs su implementación ideal.</li>
+    <li>Utilizar tablas termodinámicas para encontrar valores de volumen específico, entalpía y entropía.</li>
+  </ul>
+
+</div>
+---
+<div>
+  <h2>Ecuacion de prueba</h2>
+
+</div>
+
+$$
+  y= \exp{(\mu- \log(\beta_0 + \beta_1 \times x))} + \phi
+$$
